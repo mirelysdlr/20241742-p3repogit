@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Proyecto CRUD</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f3f4f6;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      margin-left: 15px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #374151;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #4b5563;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 15px;
+      background-color: #2563eb;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #1e40af;
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1>Proyecto CRUD</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="listado.html">Listado</a>
+      <a href="crear.html">Crear</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Pantalla Principal</h2>
+    <p>Bienvenido al sistema CRUD del proyecto, desde esta pantalla puedes navegar a las funciones principales del sistema.</p>
+
+    <p>Selecciona una opción para comenzar:</p>
+
+    <a class="btn" href="listado.html">Ver registros</a>
+    <a class="btn" href="crear.html">Crear nuevo registro</a>
+  </div>
+
+</body>
+</html>
